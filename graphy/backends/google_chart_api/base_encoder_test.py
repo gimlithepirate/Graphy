@@ -132,7 +132,7 @@ class BaseChartTest(graphy_test.GraphyTest):
       self.assert_(actual_text.startswith(expected_start), message)
 
     assertStartsWith(self.chart.display.Url(0, 0),
-                     'http://chart.apis.google.com/chart')
+                     'http://chart.googleapis.com/chart')
 
     url_base = 'http://example.com/charts'
     self.chart.display.url_base = url_base
